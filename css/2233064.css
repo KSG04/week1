@@ -61,14 +61,14 @@ tr:nth-child(odd){
 }
 
 /*링크이동(과제)*/
-a:link{
+ul a:link{
     text-decoration: none;
     color: red;
 }
-a:visited{
+ul a:visited{
     color: rgb(51, 26, 216);
 }
-.hyperlink a:hover{
+ul a:hover{
     text-decoration: underline;
     background-color: rgb(115, 214, 115);
     color: green;
@@ -76,7 +76,7 @@ a:visited{
 .hyperlink {
     width: 600px;
 }
-a:active{
+ul a:active{
     color: orange;
 }
 
